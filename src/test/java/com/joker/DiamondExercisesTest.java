@@ -29,6 +29,13 @@ public class DiamondExercisesTest {
         assertEquals(systemOut(),result);
     }
 
+    @Test
+    public void diamond_test() {
+        String result = "  *\n ***\n*****\n ***\n  *\n";
+        diamondExercises.diamond(3);
+        assertEquals(systemOut(),result);
+    }
+
     private String systemOut() {
         return outContent.toString();
     }

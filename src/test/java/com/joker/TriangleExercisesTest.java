@@ -29,6 +29,13 @@ public class TriangleExercisesTest {
         assertEquals(systemOut(),reuslt);
     }
 
+    @Test
+    public void draw_a_horizontal_line_test() {
+        String result = "********";
+        triangleExercises.drawAHorizontalLine(8);
+        assertEquals(systemOut(),result);
+    }
+
 
     private String systemOut() {
         return outContent.toString();

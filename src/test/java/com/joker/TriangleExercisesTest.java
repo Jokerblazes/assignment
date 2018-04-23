@@ -43,6 +43,13 @@ public class TriangleExercisesTest {
         assertEquals(systemOut(),result);
     }
 
+    @Test
+    public void draw_a_right_triangle_test() {
+        String result = "*\n**\n***\n";
+        triangleExercises.drawARightTriangle(3);
+        assertEquals(systemOut(),result);
+    }
+
 
     private String systemOut() {
         return outContent.toString();

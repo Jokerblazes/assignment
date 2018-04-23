@@ -36,6 +36,17 @@ public class DiamondExercisesTest {
         assertEquals(systemOut(),result);
     }
 
+    @Test
+    public void diamond_with_name_test() {
+        String result = "  *\n" +
+                " ***\n" +
+                "Bill\n" +
+                " ***\n" +
+                "  *\n";
+        diamondExercises.diamondWithName(3,"Bill");
+        assertEquals(systemOut(),result);
+    }
+
     private String systemOut() {
         return outContent.toString();
     }

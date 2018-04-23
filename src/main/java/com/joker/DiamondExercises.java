@@ -55,4 +55,35 @@ public class DiamondExercises {
     }
 
 
+    public void diamondWithName(int n, String bill) {
+        int space = bill.length() / 2;
+        int num = 1;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < space; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < num; j++) {
+                System.out.print("*");
+            }
+
+            space--;
+            num += 2;
+            System.out.println();
+        }
+        System.out.println(bill);
+        space++;
+        num -= 2;
+        for (int i = n - 1; i >= 1; i--) {
+            for (int j = 0; j < space; j++) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < num; j++) {
+                System.out.print("*");
+            }
+            space++;
+            num -= 2;
+            System.out.println();
+        }
+
+    }
 }

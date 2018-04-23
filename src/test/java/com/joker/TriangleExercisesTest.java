@@ -36,6 +36,13 @@ public class TriangleExercisesTest {
         assertEquals(systemOut(),result);
     }
 
+    @Test
+    public void draw_a_vertical_line_test() {
+        String result = "*\n*\n*\n";
+        triangleExercises.drawAVerticalLine(3);
+        assertEquals(systemOut(),result);
+    }
+
 
     private String systemOut() {
         return outContent.toString();

@@ -15,4 +15,10 @@ public class TriangleExercises {
             System.out.print("*");
         }
     }
+
+    public void drawAVerticalLine(int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println("*");
+        }
+    }
 }

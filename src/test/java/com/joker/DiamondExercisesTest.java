@@ -23,21 +23,21 @@ public class DiamondExercisesTest {
     }
 
     @Test
-    public void isosceles_triangle_test() {
+    public void test_isosceles_triangle() {
         String result = "  *\n ***\n*****\n";
         diamondExercises.isoscelesTriangle(3);
         assertEquals(systemOut(),result);
     }
 
     @Test
-    public void diamond_test() {
+    public void test_diamond() {
         String result = "  *\n ***\n*****\n ***\n  *\n";
         diamondExercises.diamond(3);
         assertEquals(systemOut(),result);
     }
 
     @Test
-    public void diamond_with_name_test() {
+    public void test_diamond_with_name() {
         String result = "  *\n" +
                 " ***\n" +
                 "Bill\n" +

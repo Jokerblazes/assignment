@@ -22,7 +22,7 @@ public class PrimeFactorsExerciseTest {
     }
 
     @Test
-    public void generateTest() {
+    public void test_generate() {
         List<Integer> result2 = Arrays.asList(2, 3, 5);
         List<Integer> list1 = primeFactorsExercise.generate(1);
         List<Integer> list2 = primeFactorsExercise.generate(30);

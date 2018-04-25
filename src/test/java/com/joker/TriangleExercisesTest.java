@@ -23,28 +23,28 @@ public class TriangleExercisesTest {
     }
 
     @Test
-    public void easiest_exercise_ever_test() {
+    public void test_easiest_exercise_ever() {
         String reuslt = "*";
         triangleExercises.easiestExerciseEver();
         assertEquals(systemOut(),reuslt);
     }
 
     @Test
-    public void draw_a_horizontal_line_test() {
+    public void test_draw_a_horizontal_line() {
         String result = "********";
         triangleExercises.drawAHorizontalLine(8);
         assertEquals(systemOut(),result);
     }
 
     @Test
-    public void draw_a_vertical_line_test() {
+    public void test_draw_a_vertical_line() {
         String result = "*\n*\n*\n";
         triangleExercises.drawAVerticalLine(3);
         assertEquals(systemOut(),result);
     }
 
     @Test
-    public void draw_a_right_triangle_test() {
+    public void test_draw_a_right_triangle() {
         String result = "*\n**\n***\n";
         triangleExercises.drawARightTriangle(3);
         assertEquals(systemOut(),result);

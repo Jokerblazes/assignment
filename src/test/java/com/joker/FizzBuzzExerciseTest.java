@@ -23,7 +23,7 @@ public class FizzBuzzExerciseTest {
     }
 
     @Test
-    public void fizzBuzz_test() {
+    public void test_fizzBuzz() {
         String result = "1\n" +
                 "2\n" +
                 "Fizz\n" +
